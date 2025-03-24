@@ -75,6 +75,7 @@ func (cli *CLI) Run(args []string) int {
 	return ExitCodeOK
 }
 
+// validation func.
 func makeSpeechOpt(text, voice, out string, rate, pitch float64) (*speech.SpeechOption, error) {
 	if text == "" {
 		return nil, fmt.Errorf("empty text")
