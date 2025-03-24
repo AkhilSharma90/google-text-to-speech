@@ -28,7 +28,7 @@ type CLI struct {
 
 // Run ...
 func (cli *CLI) Run(args []string) int {
-	flags := flag.NewFlagSet("spokesman", flag.ContinueOnError)
+	flags := flag.NewFlagSet("google-text-to-speech", flag.ContinueOnError)
 
 	var (
 		text, voice, out string

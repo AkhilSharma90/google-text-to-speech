@@ -22,7 +22,7 @@ go run main.go -text "こんにちは、お元気ですか。私の名前はア�
 ```
 
 ```
-Usage of spokesman:
+Usage of google-text-to-speech:
   -o string
         output audio file (support format of the audio: LINEAR16, MP3)
   -pitch float

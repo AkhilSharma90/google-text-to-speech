@@ -2,11 +2,7 @@ module github.com/akhilsharma90/google-text-to-speech
 
 go 1.23.4
 
-require (
-	cloud.google.com/go/texttospeech v1.11.2
-	github.com/zabio3/spokesman v0.1.0
-	google.golang.org/genproto v0.0.0-20250313205543-e70fdf4c4cb4
-)
+require cloud.google.com/go/texttospeech v1.11.2
 
 require (
 	cloud.google.com/go v0.118.3 // indirect
